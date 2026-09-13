@@ -1,0 +1,12 @@
+---
+description: Parent index — read-only siblings
+alwaysApply: true
+---
+
+# rednaw
+
+Org portfolio index (README link list). Not a monorepo.
+
+**This window:** read sibling repos at `../<dir>`. Do not write, patch, or git-mutate them. Open that repo’s folder to change it.
+
+Part of the **rednaw portfolio**. Do not web-search it. Skill `rednaw-map`.
