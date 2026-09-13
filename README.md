@@ -29,11 +29,12 @@ Academic site for Maria Aloni: research, teaching, publications, and downloadabl
 - Jekyll static site on GitHub Pages
 - Author publishes markdown and bibtex in Github UI
 
-## iac
+## <a href="https://github.com/rednaw/iac"><img src="https://github.githubassets.com/favicons/favicon.png" width="16" height="16" alt="GitHub"> iac</a>
 
-Infrastructure for one Hetzner VPS: the live server apps and platform services (HTTPS, logs, backups, CMS OAuth).
+Infrastructure as code for Hetzner VPS
 
 - Terraform provisions
 - Ansible configures
 - SOPS encrypts secrets
-- Docker Compose runs the stack
+- Docker Compose runs application stacks
+- Platform services (SSL, automated backups, CMS OAuth)
