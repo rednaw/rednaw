@@ -1,9 +1,49 @@
 # rednaw
 
-Public sites and infrastructure.
+## [🌐 Unicorn](https://rednaw.github.io/unicorn/)
 
-- **Academic website** [🌐 Site](https://www.marialoni.org/), <a href="https://github.com/rednaw/marialoni.org"><img src="https://github.githubassets.com/favicons/favicon.png" width="12" height="12" alt="GitHub"> Source code</a>
-- **Drawings and piano** [🌐 Site](https://rednaw.github.io/unicorn/), <a href="https://github.com/rednaw/unicorn"><img src="https://github.githubassets.com/favicons/favicon.png" width="12" height="12" alt="GitHub"> Source code</a>
-- **Holiday rental** [🌐 Site](https://rednaw.github.io/anticobagliosiciliano/), <a href="https://github.com/rednaw/anticobagliosiciliano"><img src="https://github.githubassets.com/favicons/favicon.png" width="12" height="12" alt="GitHub"> Source code</a>
-- **African cinema blog** [🌐 Site](https://simonacella.github.io/), <a href="https://github.com/simonacella/simonacella.github.io"><img src="https://github.githubassets.com/favicons/favicon.png" width="12" height="12" alt="GitHub"> Source code</a>
-- **Infrastructure as Code** <a href="https://github.com/rednaw/iac"><img src="https://github.githubassets.com/favicons/favicon.png" width="12" height="12" alt="GitHub"> Source code</a>
+Studio for one artist's drawings and piano. Pan and zoom images, listen to recordings.
+
+- SvelteKit static site on GitHub Pages
+- Full-resolution drawings and audio in Git LFS
+
+[Source code](https://github.com/rednaw/unicorn)
+
+## [🌐 Antico Baglio Siciliano](https://rednaw.github.io/anticobagliosiciliano/)
+
+Holiday rental in Sicily. Houses, places, and stay information in Italian and English.
+
+- SvelteKit static site on GitHub Pages
+- Owner publishes content in Sveltia CMS
+- Occupancy syncs from Lodgify
+
+[Source code](https://github.com/rednaw/anticobagliosiciliano)
+
+## [🌐 Il cinema come amuleto](https://simonacella.github.io/)
+
+Film-criticism blog by Simona Cella on African cinema and third cinema. Italian-first, with English and French.
+
+- Jekyll static site on GitHub Pages
+- Author publishes content in Sveltia CMS
+
+[Source code](https://github.com/simonacella/simonacella.github.io)
+
+## [🌐 marialoni.org](https://www.marialoni.org/)
+
+Academic site for Maria Aloni: research, teaching, publications, and downloadable papers.
+
+- Jekyll static site on GitHub Pages
+- Author publishes markdown and bibtex in Github UI
+
+[Source code](https://github.com/rednaw/marialoni.org)
+
+## iac
+
+Infrastructure for one Hetzner VPS: the live server apps and platform services (HTTPS, logs, backups, CMS OAuth).
+
+- Terraform provisions
+- Ansible configures
+- SOPS encrypts secrets
+- Docker Compose runs the stack
+
+[Source code](https://github.com/rednaw/iac)
