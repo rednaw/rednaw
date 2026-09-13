@@ -31,10 +31,9 @@ Academic site for Maria Aloni: research, teaching, publications, and downloadabl
 
 ## <a href="https://github.com/rednaw/iac"><img src="https://github.githubassets.com/favicons/favicon.png" width="16" height="16" alt="GitHub"> iac</a>
 
-Infrastructure as code for Hetzner VPS
+Infrastructure as code for Hetzner
 
 - Terraform provisions
 - Ansible configures
 - SOPS encrypts secrets
 - Docker Compose runs application stacks
-- Platform services (SSL, automated backups, CMS OAuth)
